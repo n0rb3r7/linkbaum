@@ -1,5 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Lexend+Giga&display=swap');
-@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css');
 * {
   margin: 0px;
   padding: 0px;
@@ -7,7 +5,7 @@
 }
 
 html {
-  background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/30fa2843-b981-4e76-9050-4fc9e886377d/da13wjf-d555e611-5020-4c04-b5f7-a4a3917846fd.jpg/v1/fill/w_800,h_480,q_75,strp/stings_first_by_n0rb3rt_da13wjf-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOiIsImlzcyI6InVybjphcHA6Iiwib2JqIjpbW3siaGVpZ2h0IjoiPD00ODAiLCJwYXRoIjoiXC9mXC8zMGZhMjg0My1iOTgxLTRlNzYtOTA1MC00ZmM5ZTg4NjM3N2RcL2RhMTN3amYtZDU1NWU2MTEtNTAyMC00YzA0LWI1ZjctYTRhMzkxNzg0NmZkLmpwZyIsIndpZHRoIjoiPD04MDAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.5aj7T71oXHMNm58sSKKOX9g-E7HoCEfbxvqgO8zNnwo');
+  background-image: url('../img/Strings3.webp');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -46,14 +44,17 @@ main {
 }
 
 .avatar {
-  max-width: 100px;
-  border-radius: 50%;
-  overflow: hidden !important;
-  border: 5px solid #5e5e5e !important;
-  border-width: 2px;
-  border-image-source: linear-gradient(to left, #ffffff46, #ffffff1e);
+    width:150px;
+    margin: 10px;
+    border:5px solid #ffffffa9;
+    border-radius: 500px;
+    -webkit-border-radius: 500px;
+    -moz-border-radius: 500px;
 }
-
+.name {
+  color: aliceblue;
+  padding-top: 10px;
+}
 .btn {
   margin-top: 20px;
   min-width: 300px;
@@ -68,12 +69,12 @@ main {
   border: 10px solid;
   border-image-slice: 1;
   border-width: 2px;
-  border-image-source: linear-gradient(to left, #ffffff46, #ffffff1e);
+  border-image-source: linear-gradient(to left, #ffffffa9, #ffffff1e);
 }
 
 .btn:hover {
-  background: rgba(156, 154, 154, 0.904);
-  color: #5e5e5e;
+  background: rgba(219, 219, 219, 0.904);
+  color: #141414;
   backdrop-filter: blur(5px);
   transition: ease-in 200ms;
 }
@@ -82,8 +83,12 @@ main {
   color: white;
   padding: 20px;
   font-size: 1.5rem;
+  transition: ease-in 200ms;
 }
-
+.icons:hover {
+  color: #dbdbdb;
+  transition: ease-in 200ms;
+}
 @media only screen and (max-width: 600px) {
   .btn {
     min-width: 90%;
